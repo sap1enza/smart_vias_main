@@ -1,0 +1,24 @@
+<ion-content padding>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mg-bottom-40">
+    <div (click)="page_home()">Voltar</div>
+  </nav>
+
+  <div class="msgUsuario">
+    <p class="msgRemetente">Você</p>
+    <p class="msgEnviada">Olá, estou no local do acidente e necessito de mais uma ambulância</p>
+  </div>
+
+  <div class="msgCentral">
+      <p class="msgRemetente">Central</p>
+      <p class="msgEnviada">Sem problemas, estamos encaminhando!</p>
+    </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-input type="text" placeholder="Digite sua mensagem..."></ion-input>
+    <div class="btn-enviar-msg center">
+        Enviar
+    </div>
+  </ion-toolbar>
+</ion-footer>
