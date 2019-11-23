@@ -53,6 +53,50 @@
   padding-top: 30%;
 }
 
+// Titulos
+h1 {
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+// Formulário
+.base-form input,
+.base-form textarea,
+.base-form select {
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.base-form input {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.base-form textarea {
+    width: 100%;
+    min-height: 110px;
+    padding: 5px 10px;
+    resize: none;
+    font-size: 15px;
+}
+
+.base-form select {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.base-form .btn-submit {
+    padding: 8px 0;
+    background-color: darkolivegreen;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+}
+
 /* Core CSS required for Ionic components to work properly */
 @import "~@ionic/angular/css/core.css";
 

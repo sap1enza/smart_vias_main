@@ -1,5 +1,7 @@
 {
   "name": "smart_vias_main",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
